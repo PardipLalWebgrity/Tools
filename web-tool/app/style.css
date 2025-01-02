@@ -1,0 +1,9 @@
+:host{
+
+	--primary--color: #37495b;
+
+	--textcolor--white: #fff;
+}
+
+:host{position: fixed;top:30%;left:30%;width:100%;width: 700px;min-width:500px;min-height: 250px;border:2px solid var(--primary--color);display: flex;flex-direction: column;resize:both;overflow: hidden;}
+.wrapper{display: flex;flex-direction: column;flex-grow: 1;}

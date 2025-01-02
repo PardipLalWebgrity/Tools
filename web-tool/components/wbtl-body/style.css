@@ -1,0 +1,4 @@
+:host{flex-grow: 1;}
+
+.tab-content{display: none;padding: 8px;transition: none;}
+.tab-content.show{display: flex;}
