@@ -1,1 +1,0 @@
-* when user goes specific tab than content load unless not
