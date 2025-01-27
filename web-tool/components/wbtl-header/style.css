@@ -1,0 +1,16 @@
+
+header{background: var(--primary--color);display: flex;}
+
+.menu{list-style: none;display: flex;justify-content: flex-start;align-items: center;}
+.menu li{padding: 4px;min-width: 42px;height: 42px;display: inline-flex;justify-content: center;align-items: center;position: relative;padding: 0 6px;}
+.menu span{color: #fff;font-size: 18px;}
+.menu path{fill:#fff;}
+
+
+
+
+.menu [type="radio"]{opacity: 0;position: absolute;top:0;left:0;width: 100%;height: 100%;cursor: pointer;}
+.menu li:has(input:checked){background: #fff;}
+.menu li:has(input:checked) path{fill: var(--primary--color);}
+
+.moveable-by-me{flex-grow: 1;}

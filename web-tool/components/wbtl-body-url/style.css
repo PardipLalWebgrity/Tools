@@ -1,0 +1,11 @@
+
+.wrapper{width:calc(100% - 40px);}
+
+:host h2{font-size: 20px;line-height: 26px;font-weight: 500;margin-bottom: 10px;}
+
+.url-list{display: flex;gap:6px;flex-wrap: wrap;}
+.url-list-item{background: var(--primary--color);color: #fff;padding: 8px 10px;font-size: 16px;cursor: pointer;border:1px solid var(--primary--color);display: inline-flex;justify-content: space-between;align-items: center;gap:8px;}
+.url-list-item svg{width: 8px;}
+.url-list-item:hover{background: transparent;color: var(--primary--color);}
+.url-list-item:hover path{fill:var(--primary--color);}
+
